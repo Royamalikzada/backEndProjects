@@ -1,0 +1,17 @@
+{
+    "name": "salmantanirverdiyev/day2",
+    "autoload": {
+        "psr-4": {
+            "Salmantanirverdiyev\\Day2\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Royamalikzada",
+            "email": "royamelikzade@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.6"
+    }
+}

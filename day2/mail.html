@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="src/php-mailer.php" method="POST">
+        <div>
+            <label for="from">Mittente</label>
+            <input type="email" name="from" id="from">
+        </div>
+        <div>
+            <label for="to">Destinatario</label>
+            <input type="email" name="to" id="to">
+        </div>
+        <div>
+            <label>Messagio</label>
+            <textarea name="message"></textarea>
+        </div>
+        <div>
+            <button>Invia</button>
+        </div>
+    </form>
+    
+</body>
+</html>
